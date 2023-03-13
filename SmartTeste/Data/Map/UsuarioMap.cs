@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SmartTeste.Model;
 
-namespace ApiRestSmartInnovation.Data.Map
+namespace SmartTeste.Data.Map
 {
     public class UsuarioMap : IEntityTypeConfiguration<Usuario>
     {

@@ -14,6 +14,10 @@ namespace SmartTeste.Repositorio
         }
         public async Task<Usuario> BuscarPorId(int id)
         {
+            if(id == 0)
+            {
+                throw new ArgumentException("Id nao encontrado");
+            }
             return await _dbContext.Usuarios.FirstOrDefaultAsync(x => x.Id == id);
         }
 

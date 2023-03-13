@@ -1,4 +1,4 @@
-﻿using ApiRestSmartInnovation.Data.Map;
+﻿using SmartTeste.Data.Map;
 using Microsoft.EntityFrameworkCore;
 using SmartTeste.Model;
 
